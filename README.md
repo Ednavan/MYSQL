@@ -18,3 +18,12 @@ altura decimal(3,2),
 nacionalidade varchar(20) default 'Brasil',                          # nacionalidade se não for definida automaticamente será brasileira pois está definida como padrão
 primary key (id)                                     #definindo primeira chave primeira para o id
 ) default charset = utf8;
+
+
+
+
+
+COMANDOS DA CLASSIFICAÇÃO DML
+
+INSERT INTO pessoas values
+(DEFAULT,  'Carlos', '1997-09-03', 'M', '80,5', '1,77', DEFAULT);
