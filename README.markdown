@@ -33,11 +33,11 @@ COMANDOS DA CLASSIFICAÇÃO DML
 ------------------------------------------
 | # CRIA DE TABELA COM ALGUMAS RESTRIÇÕES|
 -----------------------------------------
-|create table if not exists cursos(|
-|nome varchar(30) not null unique,|  #unique siginifica que o nome ele não pode existir duas vezes
-|descricao text,|
-|carga int unsigned,|                     #sem sinal 
-|totalaulas int unsigned, |
-|ano year default '2016'|
-|)default charset = utf8;| #colocaco como utf8 para não ter problema de acentuação na hora do cadastro das informações
-----------------------------------
+create table if not exists cursos(|
+nome varchar(30) not null unique,|  #unique siginifica que o nome ele não pode existir duas vezes
+descricao text,|
+carga int unsigned,|                     #sem sinal 
+totalaulas int unsigned, |
+ano year default '2016'|
+)default charset = utf8;| #colocaco como utf8 para não ter problema de acentuação na hora do cadastro das informações
+
