@@ -4,7 +4,7 @@
  
 ### *FERRAMENTAS  QUE UTILIZO PARA CONFIGURAR O BANCO DE DADOS E ESTÁ CRIANDO  NOVAS ALTERAÇÕES DE DDL E DML!*
 
-
+Exemplo abaixo mostra o comando de criar uma tebela, com seus atributos:
  -------------------------------------------------------------------------------------
 |CREATE DATABASE CADASTRO  DEFAULT CHARACTER SET utf8 default collate utf8_general_ci;
 |-----------------------------------------------------------------------------------------------
