@@ -34,8 +34,9 @@ COMANDOS DA CLASSIFICAÇÃO DML
 
 **informações abaixo Estao Sujeitas a alterações futuras**
 
+-
 -----------------------------------
-|create table if not exists cursos(|
+create table if not exists cursos(
 -----------------------------------
 nome varchar(30) not null unique,  #unique siginifica que o nome ele não pode existir duas vezes
 descricao text,
