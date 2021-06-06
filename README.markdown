@@ -23,9 +23,9 @@ primary key (id) |                                    #definindo primeira chave 
 
 `COMANDOS DA CLASSFICAÇÃO DML` 
 
---------------------------------------
-create table if not exists cursos(   |
---------------------------------------
+|--------------------------------------
+|create table if not exists cursos(   |
+|--------------------------------------
 nome varchar(30) not null unique,    |
 --------------------------------------
 descricao text,                      |
