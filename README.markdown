@@ -6,7 +6,7 @@
 
 Exemplo abaixo mostra o comando de criar uma tebela, com seus atributos:
  -------------------------------------------------------------------------------------
-|CREATE DATABASE CADASTRO  DEFAULT CHARACTER SET utf8 default collate utf8_general_ci;
+|CREATE DATABASE CADASTRO  DEFAULT CHARACTER SET utf8 default collate utf8_general_ci;|
 |-----------------------------------------------------------------------------------------------
 create table pessoas(|
 id INT NOT NULL AUTO_INCREMENT, |                #NOT NULL OBRIGA A DIGITAÇÃO, Auto increment siginfica que a primeeira pessoa terá código 1, a segunda código 2  ....
@@ -22,25 +22,3 @@ primary key (id) |                                    #definindo primeira chave 
 
 
 
-COMANDOS DA CLASSIFICAÇÃO DML
-
-
-#### INSERT INTO pessoas values
---------------------------------------------------------------
-(DEFAULT,  'Carlos', '1997-09-03', 'M', '80,5', '1,77', DEFAULT);|
----------------------------------------------------------------
-
-
-
-**informações abaixo Estao Sujeitas a alterações futuras**
-
--
------------------------------------
-create table if not exists cursos(
------------------------------------
-nome varchar(30) not null unique,  #unique siginifica que o nome ele não pode existir duas vezes
-descricao text,
-carga int unsigned,                     #sem sinal 
-totalaulas int unsigned, 
-ano year default '2016'
-)default charset = utf8; #colocaco como utf8 para não ter problema de acentuação na hora do cadastro das informações
