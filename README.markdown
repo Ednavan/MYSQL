@@ -21,6 +21,7 @@ primary key (id) |                                    #definindo primeira chave 
 ---------------------------------------------------------------------------------------
 
 
+`COMANDOS DA CLASSFICAÇÃO DML` 
 
 Exemplo   | Valor do exemplo
 --------- | ------
