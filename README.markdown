@@ -23,9 +23,10 @@ primary key (id) |                                    #definindo primeira chave 
 
 `COMANDOS DA CLASSFICAÇÃO DML` 
 
-Exemplo   | Valor do exemplo
+create table if not exists cursos(  |
 --------- | ------
-Exemplo 1 | R$ 10
-Exemplo 2 | R$ 8
-Exemplo 3 | R$ 7
-Exemplo 4 | R$ 8
+nome varchar(30) not null unique,| 
+descricao text, | 
+carga int unsigned, |
+total de aulas int unsigned, |
+ano year default '2016' |
