@@ -26,9 +26,9 @@ primary key (id) |                                    #definindo primeira chave 
 
 |create table if not exists cursos(   |
 --------------------------------------|
-|nome varchar(30) not null unique,    |
+nome varchar(30) not null unique,    |
 --------------------------------------|
-|descricao text,                      |
+descricao text,                      |
 --------------------------------------|
 |carga int unsigned,                  |
 --------------------------------------|
