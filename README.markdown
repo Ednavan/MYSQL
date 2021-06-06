@@ -23,16 +23,17 @@ primary key (id) |                                    #definindo primeira chave 
 
 `COMANDOS DA CLASSFICAÇÃO DML` 
 
-create table if not exists cursos(  |
---------- | --------------------------
-nome varchar(30) not null unique,| 
 --------------------------------------
-descricao text, | 
+create table if not exists cursos(   |
 --------------------------------------
-carga int unsigned, |
+nome varchar(30) not null unique,    |
 --------------------------------------
-total de aulas int unsigned, |
+descricao text,                      |
 --------------------------------------
-ano year default '2016' |
+carga int unsigned,                  |
+--------------------------------------
+total de aulas int unsigned,         |
+--------------------------------------
+ano year default '2016'              |
 --------------------------------------
 
